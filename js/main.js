@@ -76,34 +76,9 @@ if (formulario) {
 
 //Para fazer uma solicitação GET simples com fetch, o único parâmetro obrigatório é a URL como argumento, por isso não havíamos declarado o método na função listaVideos(). Para uma solicitação POST, você precisará passar um objeto das opções de configuração como um segundo argumento. O objeto opcional pode receber vários parâmetros diferentes, mas o essencial é a declaração de que está usando o método POST. 
 
-// Função para filtrar vídeos pelo título
-// Função para remover acentos de uma string
-function removerAcentos(texto) {
-    return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-}
-
-
-// Função para filtrar vídeos pelo título
-// function filtrarVideos() {
-//     const input = document.getElementById('pesquisar');
-//     const filter = removerAcentos(input.value.toLowerCase());
-//     const videos = document.querySelectorAll('.videos__item');
-//     const container = document.querySelectorAll('.videos__container');
-
-//     videos.forEach(video => {
-//         const titulo = removerAcentos(video.querySelector('h3').textContent.toLowerCase());
-//         if (titulo.includes(filter)) {
-//             video.style.display = '';
-//         } else {
-//             video.style.display = 'none';
-//         }
-//     });
-// }
-
-// // Adicionar evento de input ao campo de pesquisa para filtrar os vídeos em tempo real
-// document.getElementById('pesquisar').addEventListener('input', filtrarVideos);
 
 // Função para remover acentos de uma string
+
 function removerAcentos(texto) {
     return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }

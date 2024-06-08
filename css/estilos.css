@@ -1,9 +1,9 @@
 *,
 *::before,
 *::after {
-    --azul-escuro: #154580;
-    --azul-medio: #3970BE;
-    --azul-claro: #E5F1FF;
+    --azul-escuro: #091b55fc;
+    --azul-medio: #be7039;
+    --azul-claro: #fff2e5;
     --cinza-texto: #444444;
     --cinza-claro: #ECECEC;
     box-sizing: border-box;
@@ -31,11 +31,11 @@ body {
     padding: 0 25px;
 }
 
-.logo__item {
-    background-image: url(../img/cabecalho/Logo.png);
-    background-repeat: no-repeat;
-    padding: 15px 65px;
-    cursor: pointer;
+.logo__item img, .logo {
+   width: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .pesquisar__input {
@@ -282,7 +282,7 @@ body {
         width: auto;
         left: 82px;
     }
-
+    
     /*ESTILOS SEÇÃO VÍDEOS */
 
     .videos__container {
@@ -307,9 +307,9 @@ body {
 
     /* SEÇÃO SUPERIOR */
 
-    .superior__secao__container {
+    /* .superior__secao__container {
         left: 247px;
-    }
+    } */
 
     /* ESTILOS DO MENU LATERAL */
 
@@ -358,13 +358,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo {
-    background-image: url(../img/cabecalho/Logo.png);
-    background-repeat: no-repeat;
-    padding: 15px 65px;
-    cursor: pointer;
 }
 
 

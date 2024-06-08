@@ -57,7 +57,7 @@
 
 @media(max-width: 834px) {
     .cabecalho__pesquisar__item {
-        display: none;
+        
     }
 
     .videos__container {
@@ -113,6 +113,25 @@
     .videos__container {
         padding-left: 18px;
         padding-right: 17px;
+    }
+    .cabecalho__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        gap: 5px;
+        background-color: white;
+        height: 80px;
+        width: 100%;
+        padding: 0 0px;
+
+    }
+    .pesquisar__input {
+        width: 170px;
+    }
+    .pesquisar__label{
+        display: none;
     }
 }
 
