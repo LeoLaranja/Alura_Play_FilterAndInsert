@@ -45,6 +45,7 @@ body {
     font-size: 16px;
     padding: 3px 8px;
     border: 1px solid rgb(211, 211, 211);
+    color: black;
 }
 
 .pesquisar__label {
@@ -232,6 +233,9 @@ body {
     font-size: 14px;
     color: #444444;
 }
+.descricao-video img{
+    width: 30px;
+}
 
 /* RODAPÉ */
 
@@ -327,4 +331,53 @@ body {
         height: 225px;
     }
 
+}
+.mensagem__imagem{
+    width: 50%;
+}
+.mensagem__titulo {
+    color: var(--azul-medio);
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.mensagem__titulo__2{
+    color: var(--azul-escuro);
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 05px;
+}
+.cabecalho {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    padding: 0 25px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(../img/cabecalho/Logo.png);
+    background-repeat: no-repeat;
+    padding: 15px 65px;
+    cursor: pointer;
+}
+
+
+.cabecalho__videos {
+    background-image: url(../img/cabecalho/video_call.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px;
+}
+
+#mensagem-busca{
+    margin-top: 56px;    
+    color: #154580;
+    font-size: 26px;
 }

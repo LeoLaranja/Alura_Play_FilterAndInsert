@@ -59,6 +59,7 @@
     .cabecalho__pesquisar__item {
         display: none;
     }
+
     .videos__container {
         padding-left: 90px;
         padding-right: 17px;
@@ -181,3 +182,4 @@
     flex-wrap: wrap;
     gap: 10px;
 }
+
